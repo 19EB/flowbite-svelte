@@ -75,7 +75,7 @@
   <div class={divClass}>
     {#each images as { id, imgurl, name, attribution }}
       {#if imageShowingIndex === id}
-        <div transition:multiple={transitionParams}>
+        <div transition:multiple|local={transitionParams}>
           <Slide image={imgurl} altTag={name} attr={attribution} />
         </div>
       {/if}

@@ -42,7 +42,7 @@
     <ul
       id="dropdown"
       class={ulClass}
-      transition:slide={{ delay: 250, duration: 300, easing: quintOut }}>
+      transition:slide|local={{ delay: 250, duration: 300, easing: quintOut }}>
       <slot />
     </ul>
   {/if}

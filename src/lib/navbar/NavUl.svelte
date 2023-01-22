@@ -22,7 +22,7 @@
 </script>
 
 {#if !hidden}
-  <div {...$$restProps} class={_divClass} transition:slide={slideParams}>
+  <div {...$$restProps} class={_divClass} transition:slide|local={slideParams}>
     <Frame tag="ul" border rounded color="navbarUl" class={_ulClass}>
       <slot />
     </Frame>

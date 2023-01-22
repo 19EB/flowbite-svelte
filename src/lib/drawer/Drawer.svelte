@@ -64,7 +64,7 @@
       {id}
       {...$$restProps}
       class={classNames(divClass, width, position, placements[placement], $$props.class)}
-      transition:multiple={transitionParams}
+      transition:multiple|local={transitionParams}
       tabindex="-1"
       aria-controls={id}
       aria-labelledby={id}>
@@ -75,7 +75,7 @@
       {id}
       {...$$restProps}
       class={classNames(divClass, width, position, placements[placement], $$props.class)}
-      transition:multiple={transitionParams}
+      transition:multiple|local={transitionParams}
       tabindex="-1"
       aria-controls={id}
       aria-labelledby={id}>
